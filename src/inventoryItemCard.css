@@ -1,0 +1,25 @@
+.IICDiv{
+    font-size: 16px;
+    display: inline-block;
+    width: 12em;
+    height: 12em;
+    background-image: url("http://pixelartmaker.com/art/891cb11ab861a7c.png");
+    background-repeat: no-repeat;
+    background-size: 10em;
+}
+
+.IICDiv h1{
+    color:black;
+    z-index: 2;
+    font-size: 1.2em;
+    margin-top: -6em;
+    margin-left: -1.5em;
+}
+
+.IICDiv .itemImg{
+    margin-top: 5em;
+    margin-right: 2em;
+    height: 4em;
+    width: 4em;
+    z-index: 8;
+}

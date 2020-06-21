@@ -1,0 +1,63 @@
+.inventoryDiv{
+    background-image: url("http://pixelartmaker.com/art/cba309e5a2e177f.png");
+    background-size: 500px;
+    display:grid;
+    height: auto;
+    width: auto;
+    max-width: 1000px;
+    align-self: center;
+    overflow: auto;
+    grid-template-areas: "topMid"
+                         "midMid"
+                         "botMid";
+    grid-template-rows: 1fr 5fr 1.4fr;
+    border: 10px outset #3b3126;
+    align-items: center;
+}
+
+.inventoryDiv h1{
+    grid-area: topMid;
+    height: auto;
+    width: auto;
+    margin-top: -27px;
+}
+
+.inventoryDiv h3{
+    grid-area: topMid;
+    margin-top: 41px;
+}
+
+
+.inventoryObjects{
+    font-size: 16px;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/682/457/small/simon-sanchez-madera-tilex1.jpg?1485480359");
+    background-size: 200px;
+    height: 374px;
+    width: auto;
+    grid-area: midMid;
+    display:  inline-block grid;
+    grid-auto-rows: 12em ;
+    grid-auto-flow: row;
+    
+    border: 10px inset #c29b72;
+    overflow: auto;
+}
+
+.inventoryButtonReturn{
+   
+    grid-area: botMid;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/682/457/small/simon-sanchez-madera-tilex1.jpg?1485480359");
+    background-size: 64px;
+    height: auto;
+    max-height: 50px;
+    min-height: 30px;
+    max-width: 150px;
+    width: auto;
+    margin-bottom: 7px;
+}
+.inventoryButtonReturn:hover{
+
+    opacity: 0.8;
+    color: rgba(190, 240, 240, 0.651);
+
+}
