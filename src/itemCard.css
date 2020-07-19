@@ -1,0 +1,75 @@
+.itemInfoCard{
+
+    margin-top: -594px;
+    display:grid;
+    height: auto;
+    width: auto;
+    max-width: 1000px;
+    align-self: center;
+    overflow: auto;
+    grid-template-areas: "topMid"
+                         "midMid"
+                         "botMid";
+    grid-template-rows: 1fr 5fr 1.4fr;
+    align-items: center;
+
+}
+
+.itemInfoCard button{
+    font-size: 16px;
+    width: 5em;
+    height: 2em;
+    background-color: transparent;
+    display: block;
+}
+
+.itemInfoCard .itemName{
+
+    display: block;
+    margin-bottom: 0;
+}
+
+.itemInfoCard .itemImage{
+    display: inline-block;
+    margin-right: 42em;
+    margin-top: -2em;
+    width: 3em;
+    height: 3em;
+
+}
+
+.itemInfoCard .itemDescription{
+    display: inline-block;
+    width: 40em;
+    height: 5em;
+    overflow: auto;
+}
+
+.itemInfoCard .itemTable{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 40em;
+    height: 5em;
+    text-align: center;
+}
+
+.itemInfoCard .itemTable .itemTableTitle{
+
+    font-size: 25px;
+    left: -5em;
+
+}
+
+.itemInfo{
+    font-size: 16px;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/682/457/small/simon-sanchez-madera-tilex1.jpg?1485480359");
+    background-size: 200px;
+    height: 374px;
+    width: auto;
+    grid-area: midMid;
+    display:  inline-block grid;
+    
+    border: 10px inset #c29b72;
+    overflow: auto;
+}

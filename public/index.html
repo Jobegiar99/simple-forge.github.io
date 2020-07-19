@@ -29,7 +29,26 @@
     <title>React App</title>
   </head>
   <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAGIvCe4N4ZY8mR9vD9NNeqUllYRPSWYRo",
+        authDomain: "simple-forge.firebaseapp.com",
+        databaseURL: "https://simple-forge.firebaseio.com",
+        projectId: "simple-forge",
+        storageBucket: "simple-forge.appspot.com",
+        messagingSenderId: "235784371888",
+        appId: "1:235784371888:web:614c82815b65da8a500575"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

@@ -1,4 +1,4 @@
-let mysql = require('mysql');
+/*let mysql = require('mysql');
 
 let connection = mysql.createConnection(
     {
@@ -17,5 +17,5 @@ connection.connect(function(err){
     connection.query(q,function(err,result,fields){
         if(err) throw err;
         console.log("Result: " ,result);
-    })
-});
+    });
+});*/

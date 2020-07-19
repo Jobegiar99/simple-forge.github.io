@@ -4,11 +4,36 @@ import './index.css';
 import MainMenu from "./mainMenu";
 import Inventory from "./inventory";
 
-class App extends React.Component{
+class App extends React.Component{  
+    constructor(){
+        super();
+        this.state = {
+          currentView : <MainMenu 
+          goToInventory = {this.goToInventory}
+          />
+        };
+    }
+
+    returnToMainMenu = () =>{
+      this.setState({
+        currentView : <MainMenu 
+        goToInventory = {this.goToInventory}
+        />
+      });
+    }
+
+    goToInventory = () =>{
+      this.setState({currentView: <Inventory
+        returnToMainMenu = {this.returnToMainMenu}
+      />});
+    }
+
+   
     render(){
+      
       return(
         <div align = "center">
-          <Inventory/>
+          {this.state.currentView}
         </div>
       )
     }
