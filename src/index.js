@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import MainMenu from "./mainMenu";
 import Inventory from "./inventory";
+import Forge from "./forge";
 
 class App extends React.Component{  
     constructor(){
@@ -10,6 +11,7 @@ class App extends React.Component{
         this.state = {
           currentView : <MainMenu 
           goToInventory = {this.goToInventory}
+          goToForge = {this.goToForge}
           />
         };
     }
@@ -18,6 +20,7 @@ class App extends React.Component{
       this.setState({
         currentView : <MainMenu 
         goToInventory = {this.goToInventory}
+        goToForge = {this.goToForge}
         />
       });
     }
@@ -28,6 +31,11 @@ class App extends React.Component{
       />});
     }
 
+    goToForge = () =>{
+      this.setState({currentView:<Forge
+        returnToMainMenu = {this.returnToMainMenu}
+      />});
+    }
    
     render(){
       

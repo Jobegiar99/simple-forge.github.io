@@ -11,7 +11,7 @@ class MainMenu extends React.Component{
                 Click "Forge a new item" to forge a new item
             </p>
             <button class = "showInventory" onClick= {this.props.goToInventory}>Show inventory</button>
-            <button class = "forgeItem"  >Forge a new Item</button>
+            <button class = "forgeItem" onClick = {this.props.goToForge}>Forge a new Item</button>
             </div>
         )
     }

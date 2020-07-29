@@ -1,0 +1,81 @@
+#forgeDiv{
+    overflow: auto;
+}
+
+#buttonForgeItem{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/682/457/small/simon-sanchez-madera-tilex1.jpg?1485480359");
+    background-size: 4em;
+    height: auto;
+    max-height: 3.125em;
+    min-height: 1.875em;
+    max-width: 9.375em;
+    width: 10em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: block;
+
+}
+
+#buttonForgeItem:hover{
+    opacity: 0.8;
+    color: rgba(190, 240, 240, 0.651);
+}
+
+#forgeButtonReturn{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/682/457/small/simon-sanchez-madera-tilex1.jpg?1485480359");
+    background-size: 4em;
+    height: auto;
+    max-height: 3.125em;
+    min-height: 1.875em;
+    max-width: 9.375em;
+    width: auto;
+    display: block;
+
+}
+#forgeButtonReturn:hover{
+    opacity: 0.8;
+    color: rgba(190, 240, 240, 0.651);
+}
+.forgeLabel{
+    font-size: 20px;
+    margin-top: 1em;
+    display: block;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/682/457/small/simon-sanchez-madera-tilex1.jpg?1485480359");
+    background-size: 5em;
+    height: 1em;
+    width: 15em;
+}
+#inputName{
+    font-size: 20px;
+    margin-top: 1em;
+    width: 14.6em;
+    display: block;
+    min-width: 8em;
+    max-width: 20em;
+    overflow-x: scroll;
+    background-color: rgb(179, 165, 165);
+    overflow: hidden;
+}
+
+#inputDescription{
+    font-size: 12px;
+    margin-top: 1em;
+    width: 24.4em;
+    height: 8.3em;
+    display: block;
+    min-width: 13.33em;
+    max-width: 33.2em;
+    overflow-x: scroll;
+    background-color: rgb(179, 165, 165);
+    overflow: hidden;
+}
+
+#inputImage{
+    font-size: 12px;
+    margin-top: 1em;
+    width: 24.3em;
+    height: 2em;
+    display: block;
+    background-color: rgb(179, 165, 165);
+    overflow: hidden;
+}

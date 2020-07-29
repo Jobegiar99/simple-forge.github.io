@@ -4,7 +4,6 @@ import InventoryItemCard from "./inventoryItemCard";
 import ItemCard from "./itemCard";
 
 class Inventory extends React.Component{
-    
     constructor(){
         super();
         this.state = {
@@ -12,7 +11,6 @@ class Inventory extends React.Component{
             visible : false
         }
     }
-
     changeVisibility = () =>{
         if(! this.state.visible ){
             this.setState({divStyle : {visibility: "visible"}, visible : true});
@@ -20,7 +18,6 @@ class Inventory extends React.Component{
             this.setState({divStyle : {visibility: "hidden"}, visible : false});
         }
     }
-
     render(){
         return(
             <div>
@@ -46,8 +43,7 @@ class Inventory extends React.Component{
                     ItemDescription = "Helmet Bro's Helmet, stories say that it can destroy civilizations with its power. You shall never face Helmet Bro while he is using his helmet"
 
                 />
-            </div>
-           
+            </div> 
         )
     }
 }
