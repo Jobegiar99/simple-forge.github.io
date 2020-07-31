@@ -8,11 +8,13 @@ import Forge from "./forge";
 class App extends React.Component{  
     constructor(){
         super();
+
         this.state = {
           currentView : <MainMenu 
           goToInventory = {this.goToInventory}
           goToForge = {this.goToForge}
-          />
+          />,
+          items : []
         };
     }
 
@@ -21,6 +23,7 @@ class App extends React.Component{
         currentView : <MainMenu 
         goToInventory = {this.goToInventory}
         goToForge = {this.goToForge}
+        
         />
       });
     }
@@ -34,7 +37,20 @@ class App extends React.Component{
     goToForge = () =>{
       this.setState({currentView:<Forge
         returnToMainMenu = {this.returnToMainMenu}
+        addItem = {this.addItem}
       />});
+    }
+
+    addItem = (name,desc, imgUrl) =>{
+      let temp = {
+        name : name,
+        desc : desc,
+        imgUrl : imgUrl
+      };
+      let tempArray = this.state.items;
+      tempArray.push(temp);
+      this.setState({items : tempArray});
+      console.log(this.state.items);
     }
    
     render(){
