@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/simple-forge.github.io/precache-manifest.f345b913c8c0edf95a84e0e248cbe2ce.js"
+  "/simple-forge.github.io/precache-manifest.172d9d6dcd4f6d0531de3e1a0317789a.js"
 );
 
 self.addEventListener('message', (event) => {

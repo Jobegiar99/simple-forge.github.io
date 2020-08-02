@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae3f09c7951f8da3b162d3296e875359",
+    "revision": "15e800a12cc57176f1152931c86dc426",
     "url": "/simple-forge.github.io/index.html"
   },
   {
