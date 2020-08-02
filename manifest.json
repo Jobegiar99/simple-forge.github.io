@@ -1,6 +1,6 @@
 {
-  "short_name": "Simple forge",
-  "name": "Simple forge",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "forge.png",
