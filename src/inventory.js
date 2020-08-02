@@ -18,7 +18,7 @@ class Inventory extends React.Component{
             <div>
                 <div class = "inventoryDiv" align = "center">
                     <h1>Inventory</h1>
-                    <h3>Click on any item to view it's information</h3>
+                    <h3>Click on any item's image to view it's information</h3>
                     <div class ="inventoryObjects" align ="center">
                         {itemCards}
                     </div>

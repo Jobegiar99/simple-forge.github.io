@@ -3,47 +3,63 @@
     display:inline;
     max-width: 100em;
     align-self: center;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/682/457/small/simon-sanchez-madera-tilex1.jpg?1485480359");
     overflow: auto;
-    z-index: -1;
 }
 
 #IICButton{
     font-size: 16px;
     width: 5em;
     height: 2em;
-    margin-top: -5em;
-    background-color: transparent;
+    margin-top: 1em;
+    background-image: url("http://pixelartmaker.com/art/cba309e5a2e177f.png");
+    background-size: 12em;
     display: block;
+    border: 0.25em inset #3b3126;
 }
 
 #itemName{
 
     display: block;
     margin-bottom: 0;
+    background-image: url("http://pixelartmaker.com/art/cba309e5a2e177f.png");
+    background-size: 8em;
+    border: 0.2em inset #3b3126;
+    width: 8em;
 }
 
 #itemImage{
-    margin-top: 5em;
-    margin-left: -26em;
-    width: 3.5em;
-    height: 3.5em;
+    margin-top: 1.5em;
+    width: 4.5em;
+    height: 4.5em;
+
 }
 
 #itemDescription{
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("http://pixelartmaker.com/art/cba309e5a2e177f.png");
+    background-size: 38em;
+    border: 0.6em inset #3b3126;
     width: 40em;
     height: 5em;
     overflow: auto;
-    margin-left: -14.25em;
+
 }
 
 
 #itemInfo{
     font-size: 16px;
-    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/682/457/small/simon-sanchez-madera-tilex1.jpg?1485480359");
     background-size: 200px;
     height: 22.10em;
     width: 25em;
     margin-top: -3.95em;
     margin-left: -12.5em;
     overflow: auto;
+}
+
+@media only screen and (max-width: 600px){
+	#itemDescription{
+		width: 15em;
+	}
 }

@@ -51,6 +51,7 @@ class Forge extends React.Component{
                     <input 
                         className = "forgeInput" 
                         name = "name" 
+                        maxLength = "16"
                         value = {this.state.name} 
                         onChange = {this.updateInput}/>
 
@@ -65,6 +66,7 @@ class Forge extends React.Component{
                     <input 
                         className = "forgeInput"  
                         name = "imgUrl"
+                       
                         value = {this.state.imgUrl} 
                         onChange = {this.updateInput}/>
 
