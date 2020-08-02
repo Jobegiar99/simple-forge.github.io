@@ -4,6 +4,7 @@ import './index.css';
 import MainMenu from "./mainMenu";
 import Inventory from "./inventory";
 import Forge from "./forge";
+import ItemCard from "./itemCard";
 
 class App extends React.Component{  
     constructor(){
@@ -23,7 +24,6 @@ class App extends React.Component{
         currentView : <MainMenu 
         goToInventory = {this.goToInventory}
         goToForge = {this.goToForge}
-        
         />
       });
     }
@@ -31,6 +31,8 @@ class App extends React.Component{
     goToInventory = () =>{
       this.setState({currentView: <Inventory
         returnToMainMenu = {this.returnToMainMenu}
+        items = {this.state.items}
+        goToItemDesc = {this.goToItemDesc}
       />});
     }
 
@@ -38,7 +40,18 @@ class App extends React.Component{
       this.setState({currentView:<Forge
         returnToMainMenu = {this.returnToMainMenu}
         addItem = {this.addItem}
+        items = {this.state.items}
       />});
+    }
+    
+    goToItemDesc = (name,desc,imgUrl) =>{
+      let temp = <ItemCard
+        ItemName = {name}
+        ItemDescription = {desc}
+        ItemImgUrl = {imgUrl}
+        goToInventory = {this.goToInventory}
+      />
+      this.setState({currentView : temp});
     }
 
     addItem = (name,desc, imgUrl) =>{

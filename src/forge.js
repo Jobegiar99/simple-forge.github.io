@@ -6,7 +6,8 @@ class Forge extends React.Component{
         this.state = {
             name : "",
             description: "",
-            imgUrl: ""
+            imgUrl: "",
+            items: null
         }
     }
 
@@ -17,9 +18,24 @@ class Forge extends React.Component{
     forgeItem = (event) =>{
         event.preventDefault();
         if( this.state.name != "" && this.state.description != "" && this.state.imgUrl != ""){
-            alert(`${this.state.name} has been forged`);
-            this.props.addItem(this.state.name, this.state.description, this.state.imgUrl);
-            this.setState({name: "", description : "", imgUrl : ""})
+            let found = false;
+            for(let i = 0; i < this.props.items.length; i++){
+                if( this.props.items[i].name == this.state.name){
+                    found = true;
+                }
+            }
+            if(!found){
+
+                alert(`${this.state.name} has been forged`);
+                this.props.addItem(this.state.name, this.state.description, this.state.imgUrl);
+                this.setState({name: "", description : "", imgUrl : ""});
+                this.props.returnToMainMenu();
+            
+            }else{
+                alert(`An item with the name of ${this.state.name} already exists`);
+            }
+
+
         }else{
             alert("Please fill all the information to forge a new item");
         }
@@ -27,6 +43,7 @@ class Forge extends React.Component{
     
 
     render(){
+        
         return(
             <div id = "forgeDiv">
                 <form>
@@ -48,7 +65,6 @@ class Forge extends React.Component{
                     <input 
                         className = "forgeInput"  
                         name = "imgUrl"
-                        type = "url" 
                         value = {this.state.imgUrl} 
                         onChange = {this.updateInput}/>
 

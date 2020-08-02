@@ -3,18 +3,24 @@ import "./inventoryItemCard.css";
 
 class InventoryItemCard extends React.Component{
 
-    loadGame = () =>{
-        //take the user to the page containing this card info.
+    clickHandler = () =>{
+        this.props.goToItemDesc(this.props.name, this.props.desc, this.props.imageURL);
     }
+
     render(){
-        
         return(
-            <div class = "IICDiv" onClick = {this.props.changeVisibility}>
+            <div class = "IICDiv">
                 
-                <img class = "itemImg" src = {this.props.imageURL} alt ={this.props.title}/>
-                <h1 > {this.props.title} </h1>
+                <img 
+                    class = "itemImg" 
+                    src = {this.props.imageURL} 
+                    alt ={this.props.title}
+                    onClick = {this.clickHandler}
+                />
+                <h1 > {this.props.name} </h1>
 
             </div>
+          
         )
     }
 }
