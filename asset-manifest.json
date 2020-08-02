@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/simple-forge-github.io/static/css/main.670f6eb9.chunk.css",
-    "main.js": "/simple-forge-github.io/static/js/main.735021d7.chunk.js",
-    "main.js.map": "/simple-forge-github.io/static/js/main.735021d7.chunk.js.map",
-    "runtime-main.js": "/simple-forge-github.io/static/js/runtime-main.f00a6c8f.js",
-    "runtime-main.js.map": "/simple-forge-github.io/static/js/runtime-main.f00a6c8f.js.map",
-    "static/js/2.df811083.chunk.js": "/simple-forge-github.io/static/js/2.df811083.chunk.js",
-    "static/js/2.df811083.chunk.js.map": "/simple-forge-github.io/static/js/2.df811083.chunk.js.map",
-    "index.html": "/simple-forge-github.io/index.html",
-    "precache-manifest.62258727bf5e94094e3674299abde088.js": "/simple-forge-github.io/precache-manifest.62258727bf5e94094e3674299abde088.js",
-    "service-worker.js": "/simple-forge-github.io/service-worker.js",
-    "static/css/main.670f6eb9.chunk.css.map": "/simple-forge-github.io/static/css/main.670f6eb9.chunk.css.map",
-    "static/js/2.df811083.chunk.js.LICENSE.txt": "/simple-forge-github.io/static/js/2.df811083.chunk.js.LICENSE.txt"
+    "main.css": "/simple-forge.github.io/static/css/main.670f6eb9.chunk.css",
+    "main.js": "/simple-forge.github.io/static/js/main.735021d7.chunk.js",
+    "main.js.map": "/simple-forge.github.io/static/js/main.735021d7.chunk.js.map",
+    "runtime-main.js": "/simple-forge.github.io/static/js/runtime-main.67f2f205.js",
+    "runtime-main.js.map": "/simple-forge.github.io/static/js/runtime-main.67f2f205.js.map",
+    "static/js/2.df811083.chunk.js": "/simple-forge.github.io/static/js/2.df811083.chunk.js",
+    "static/js/2.df811083.chunk.js.map": "/simple-forge.github.io/static/js/2.df811083.chunk.js.map",
+    "index.html": "/simple-forge.github.io/index.html",
+    "precache-manifest.97f41b2b184c2043495388779f16eaab.js": "/simple-forge.github.io/precache-manifest.97f41b2b184c2043495388779f16eaab.js",
+    "service-worker.js": "/simple-forge.github.io/service-worker.js",
+    "static/css/main.670f6eb9.chunk.css.map": "/simple-forge.github.io/static/css/main.670f6eb9.chunk.css.map",
+    "static/js/2.df811083.chunk.js.LICENSE.txt": "/simple-forge.github.io/static/js/2.df811083.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f00a6c8f.js",
+    "static/js/runtime-main.67f2f205.js",
     "static/js/2.df811083.chunk.js",
     "static/css/main.670f6eb9.chunk.css",
     "static/js/main.735021d7.chunk.js"
