@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/simple-forge.github.io/static/css/main.670f6eb9.chunk.css",
-    "main.js": "/simple-forge.github.io/static/js/main.735021d7.chunk.js",
-    "main.js.map": "/simple-forge.github.io/static/js/main.735021d7.chunk.js.map",
+    "main.js": "/simple-forge.github.io/static/js/main.83709e8f.chunk.js",
+    "main.js.map": "/simple-forge.github.io/static/js/main.83709e8f.chunk.js.map",
     "runtime-main.js": "/simple-forge.github.io/static/js/runtime-main.67f2f205.js",
     "runtime-main.js.map": "/simple-forge.github.io/static/js/runtime-main.67f2f205.js.map",
     "static/js/2.df811083.chunk.js": "/simple-forge.github.io/static/js/2.df811083.chunk.js",
     "static/js/2.df811083.chunk.js.map": "/simple-forge.github.io/static/js/2.df811083.chunk.js.map",
     "index.html": "/simple-forge.github.io/index.html",
-    "precache-manifest.172d9d6dcd4f6d0531de3e1a0317789a.js": "/simple-forge.github.io/precache-manifest.172d9d6dcd4f6d0531de3e1a0317789a.js",
+    "precache-manifest.e601e82fdb703a63c3c882492df44bf4.js": "/simple-forge.github.io/precache-manifest.e601e82fdb703a63c3c882492df44bf4.js",
     "service-worker.js": "/simple-forge.github.io/service-worker.js",
     "static/css/main.670f6eb9.chunk.css.map": "/simple-forge.github.io/static/css/main.670f6eb9.chunk.css.map",
     "static/js/2.df811083.chunk.js.LICENSE.txt": "/simple-forge.github.io/static/js/2.df811083.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.67f2f205.js",
     "static/js/2.df811083.chunk.js",
     "static/css/main.670f6eb9.chunk.css",
-    "static/js/main.735021d7.chunk.js"
+    "static/js/main.83709e8f.chunk.js"
   ]
 }

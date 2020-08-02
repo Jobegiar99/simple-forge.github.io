@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15e800a12cc57176f1152931c86dc426",
+    "revision": "4191207fed841fae04f79e995f2aea69",
     "url": "/simple-forge.github.io/index.html"
   },
   {
-    "revision": "fe36685bc99fd307debb",
+    "revision": "9b4d15f309a7c411f508",
     "url": "/simple-forge.github.io/static/css/main.670f6eb9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simple-forge.github.io/static/js/2.df811083.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe36685bc99fd307debb",
-    "url": "/simple-forge.github.io/static/js/main.735021d7.chunk.js"
+    "revision": "9b4d15f309a7c411f508",
+    "url": "/simple-forge.github.io/static/js/main.83709e8f.chunk.js"
   },
   {
     "revision": "2e7c2121014703be6550",
